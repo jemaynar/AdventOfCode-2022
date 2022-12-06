@@ -1,14 +1,18 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
 
     <PropertyGroup>
+        <OutputType>Exe</OutputType>
         <TargetFramework>net6.0</TargetFramework>
         <RootNamespace>AOC_2022</RootNamespace>
-        <GenerateDocumentationFile>true</GenerateDocumentationFile>
     </PropertyGroup>
 
     <ItemGroup>
-      <Content Include="Data\input1.txt" />
+      <Content Include="Data\input1.txt">
+        <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      </Content>
       <Compile Include="Common.fs" />
+      <Compile Include="Day1.fs" />
+      <Compile Include="Program.fs" />
     </ItemGroup>
 
 </Project>

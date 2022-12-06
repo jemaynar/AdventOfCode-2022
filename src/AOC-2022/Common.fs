@@ -1,4 +1,4 @@
-﻿module AOC_2022
+﻿module Common
     open System.IO
 
     // Return array of strings the binary input.
