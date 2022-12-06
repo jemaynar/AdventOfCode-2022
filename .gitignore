@@ -1,3 +1,5 @@
 src/.idea/
 src/AOC-2022/obj/
 src/AOC-2022/bin/
+src/UnitTests/obj/
+src/UnitTests/bin/

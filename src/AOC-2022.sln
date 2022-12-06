@@ -2,6 +2,8 @@
 Microsoft Visual Studio Solution File, Format Version 12.00
 Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "AOC-2022", "AOC-2022\AOC-2022.fsproj", "{993F777B-B7CF-4AEF-AD32-C3932A4F572D}"
 EndProject
+Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "UnitTests", "UnitTests\UnitTests.fsproj", "{10CF0DD5-408A-4BCA-BB40-443AA6A59019}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -12,5 +14,9 @@ Global
 		{993F777B-B7CF-4AEF-AD32-C3932A4F572D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{993F777B-B7CF-4AEF-AD32-C3932A4F572D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{993F777B-B7CF-4AEF-AD32-C3932A4F572D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{10CF0DD5-408A-4BCA-BB40-443AA6A59019}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{10CF0DD5-408A-4BCA-BB40-443AA6A59019}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{10CF0DD5-408A-4BCA-BB40-443AA6A59019}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{10CF0DD5-408A-4BCA-BB40-443AA6A59019}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
